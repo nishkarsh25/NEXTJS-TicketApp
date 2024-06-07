@@ -29,4 +29,4 @@ const StatusDisplay = ({ status }) => {
   );
 };
 
-
+export default StatusDisplay;
