@@ -14,10 +14,10 @@ const Nav = () => {
         </Link>
       </div>
       <div>
-        <p className=" text-default-text">jake.lower17@gmail.com</p>
+        <p className=" text-default-text">bm21btech11016@iith.ac.in</p>
       </div>
     </nav>
   );
 };
 
-
+export default Nav;
