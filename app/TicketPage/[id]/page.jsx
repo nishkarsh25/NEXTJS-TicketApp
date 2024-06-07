@@ -32,4 +32,4 @@ const TicketPage = async ({ params }) => {
   return <EditTicketForm ticket={updateTicketData} />;
 };
 
-
+export default TicketPage;
