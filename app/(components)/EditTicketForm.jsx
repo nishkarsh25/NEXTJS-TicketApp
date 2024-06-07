@@ -188,4 +188,4 @@ const EditTicketForm = ({ ticket }) => {
   );
 };
 
-
+export default EditTicketForm;
