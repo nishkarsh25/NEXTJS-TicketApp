@@ -36,4 +36,4 @@ const PriorityDisplay = ({ priority }) => {
   );
 };
 
-
+export default PriorityDisplay;
