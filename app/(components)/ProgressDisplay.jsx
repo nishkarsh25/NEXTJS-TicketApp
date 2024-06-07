@@ -9,4 +9,4 @@ const ProgressDisplay = ({ progress }) => {
   );
 };
 
-
+export default ProgressDisplay;
