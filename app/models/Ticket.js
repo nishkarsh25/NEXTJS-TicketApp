@@ -12,6 +12,9 @@ const ticketSchema = new Schema(
     progress: Number,
     status: String,
     active: Boolean,
+  },
+  {
+    timestamps: true,
   }
 );
 
