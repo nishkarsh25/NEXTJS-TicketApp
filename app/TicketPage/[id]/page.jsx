@@ -16,7 +16,20 @@ const getTicketById = async (id) => {
   }
 };
 
+let updateTicketData = {};
+const TicketPage = async ({ params }) => {
+  const EDITMODE = params.id === "new" ? false : true;
 
+  if (EDITMODE) {
+    updateTicketData = await getTicketById(params.id);
+    updateTicketData = updateTicketData.foundTicket;
+  } else {
+    updateTicketData = {
+      _id: "new",
+    };
+  }
 
+  return <EditTicketForm ticket={updateTicketData} />;
+};
 
 
