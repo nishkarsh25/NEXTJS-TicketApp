@@ -25,4 +25,4 @@ const DeleteBlock = ({ id }) => {
   );
 };
 
-
+export default DeleteBlock;
