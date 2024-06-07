@@ -68,7 +68,12 @@ const EditTicketForm = ({ ticket }) => {
     console.log(2)
   };
 
-  
+  const categories = [
+    "Hardware Problem",
+    "Software Problem",
+    "Application Deveopment",
+    "Project",
+  ];
 
   
 };
