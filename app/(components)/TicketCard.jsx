@@ -51,4 +51,4 @@ const TicketCard = ({ ticket }) => {
   );
 };
 
-
+export default TicketCard;
