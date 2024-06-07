@@ -23,9 +23,17 @@ const EditTicketForm = ({ ticket }) => {
     startingTicketData["category"] = ticket.category;
   }
 
-  
+  const [formData, setFormData] = useState(startingTicketData);
 
-  
+  const handleChange = (e) => {
+    const value = e.target.value;
+    const name = e.target.name;
+
+    setFormData((preState) => ({
+      ...preState,
+      [name]: value,
+    }));
+  };
 
   
 
