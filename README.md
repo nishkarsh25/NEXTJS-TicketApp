@@ -21,7 +21,7 @@ This is a Ticket Management System built with Next.js, React, and MongoDB. The a
 
 ## Live Demo
 
-You can try out the live demo of the app [here](https://nextjs-fullstackauth.onrender.com/).
+You can try out the live demo of the app [here](https://nextjs-ticket-app-one.vercel.app/).
 
 ## Folder Structure
 
